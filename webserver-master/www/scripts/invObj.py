@@ -21,6 +21,6 @@ class invPacket():
         print ('Phone Number: ' + self.phone + '\n Location: '+ self.location + '\n Time:' + self.time + '\n Amount:' + self.amount + '\n Type:' + self.type_weed)
 
 
-invitation = invPacket('kosomo','ars','mira','zonzonet','gdola')
+invitation = invPacket('obj1','obj2','obj3','obj4','obj5')
 invitation.to_log_file()
 invitation.to_Http()
